@@ -6,7 +6,7 @@ class Student
   #  with DB[:conn]
 
   def initialize(name, grade)
-    @id = nil
+    #@id = nil
     @name = name
     @grade = grade
   end
