@@ -37,7 +37,7 @@ class Student
     @id = DB[:conn].execute("SELECT last_insert_rowid() FROM students")[0][0]
   end
 
-  def self.save_from_db(array)
+  def self.new_from_db(array)
 
   end
 
