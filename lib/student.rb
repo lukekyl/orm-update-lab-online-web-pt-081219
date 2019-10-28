@@ -57,6 +57,6 @@ class Student
     end.first
   end
 
-  def self.update
+  def update
 
 end
