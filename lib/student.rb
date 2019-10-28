@@ -57,4 +57,6 @@ class Student
     end.first
   end
 
+  def self.update
+
 end
